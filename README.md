@@ -33,15 +33,27 @@ LinkedIn Profile Theme Changer is a Chrome extension that allows users to change
 
 ## Screenshots
 
-# HUH? Theme
+### HUH? Theme
 
-# Goku Theme
+https://github.com/chiragksharma/Linkedin_pfp_change/assets/74889769/367971d6-0b82-4b5b-a5d1-1d8caa34d492
 
-# Ok? Theme
+### Goku Theme
 
-# WHATT Theme
+https://github.com/chiragksharma/Linkedin_pfp_change/assets/74889769/077d715a-e217-4924-9715-b922b70b5e7c
+
+### Ok? Theme
+
+https://github.com/chiragksharma/Linkedin_pfp_change/assets/74889769/6d5488ae-705c-47eb-89cc-be27af07d7c9
+
+### WHATT Theme
+
+https://github.com/chiragksharma/Linkedin_pfp_change/assets/74889769/5da9b612-2f78-41ee-8faf-09a19e57e9ad
+
 
 ## Video Demo 
+
+https://github.com/chiragksharma/Linkedin_pfp_change/assets/74889769/9cecb637-1ee1-405d-825d-6deba6a4cb75
+
 
 Watch a video demonstration of the LinkedIn Profile Theme Changer in action:
 

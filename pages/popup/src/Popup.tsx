@@ -2,11 +2,20 @@ import '@src/Popup.css';
 import { useStorageSuspense, withErrorBoundary, withSuspense } from '@chrome-extension-boilerplate/shared';
 import { exampleThemeStorage } from '@chrome-extension-boilerplate/storage';
 
+
 import { ComponentPropsWithoutRef } from 'react';
 
 const Popup = () => {
   const theme = useStorageSuspense(exampleThemeStorage);
 
+  const handleChangePhotos = () => {
+    chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
+      if (tabs[0]?.id) {
+        chrome.tabs.sendMessage(tabs[0].id, { action: 'changePhotos' });
+      }
+    });
+  };
+  
   return (
     <div
       className="App"
@@ -28,6 +37,9 @@ const Popup = () => {
           Learn React!
         </a>
         <ToggleButton>Toggle theme</ToggleButton>
+        <button onClick={handleChangePhotos} className="font-bold mt-4 py-1 px-4 rounded shadow hover:scale-105 bg-blue-500 text-white">
+          Change Profile Photos
+        </button>
       </header>
     </div>
   );

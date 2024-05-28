@@ -1,7 +1,7 @@
 {
-  "name": "chrome-extension",
+  "name": "linkedin_pfp_change",
   "version": "0.0.1",
-  "description": "chrome extension",
+  "description": "Change your Pfp on Linkedin",
   "scripts": {
     "clean": "rimraf ../../dist && rimraf .turbo",
     "build": "tsc --noEmit && vite build",
